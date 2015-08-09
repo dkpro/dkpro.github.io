@@ -1,0 +1,7 @@
+- title: DKPro
+  url: "/"
+  side: left
+
+- title: "About"
+  side: left
+  url: "/info"

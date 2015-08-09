@@ -1,0 +1,10 @@
+{% assign projects = (site.data.projects | where: "status", include.status | sort: "name") %}
+<table class="product">
+{% tablerow project in projects cols:include.cols %}
+  {% if project.logo %}
+  <a href="{{ project.url }}"><img class="logo" src="{{ project.logo }}"/></a>
+  {% endif %}
+  <h4><a href="{{ project.url }}">{{ project.name }}</a></h4>
+  <p>{{ project.description }} <a href="{{ project.url }}">{{ site.data.language.more }}</a></p>
+{% endtablerow %}
+</table>
