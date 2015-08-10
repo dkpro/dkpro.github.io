@@ -49,6 +49,7 @@
 
 - name: "DKPro TC"
   url: "https://dkpro.github.io/dkpro-tc"
+  logo: "https://dkpro.github.io/dkpro-tc/assets/img/logo.png"
   description: "UIMA-based text classification framework built on top of DKPro Core, DKPro Lab and the Weka Machine Learning Toolkit. It is intended to alleviate supervised machine learning experiments with any kind of textual data."
   status: "featured"
 
