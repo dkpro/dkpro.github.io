@@ -22,6 +22,7 @@
 
 - name: "DKPro Lab"
   url: "https://dkpro.github.io/dkpro-lab"
+  logo: "https://dkpro.github.io/dkpro-lab/assets/img/logo.png"
   description: "Lightweight framework for parameter sweeping experiments. It allows you to set up experiments consisting of multiple interdependent tasks in a declarative manner with minimal overhead."
   status: "regular"
 
