@@ -55,6 +55,7 @@
 
 - name: "Uby"
   url: "https://dkpro.github.io/dkpro-uby"
+  logo: "https://dkpro.github.io/dkpro-uby/assets/img/logo.png"
   description: "Framework for creating and accessing sense-linked lexical resources in accordance with the UBY-LMF lexicon model, an instantiation of the ISO standard Lexicon Markup Framework (LMF)."
   status: "featured"
 
