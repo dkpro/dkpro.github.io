@@ -5,12 +5,12 @@
 		{% capture modulo1 %}{{ forloop.index | modulo: include.cols }}{% endcapture %}
 
 		{% if modulo == '0' %}<div class="row">{% endif %}
-		<div class="medium-{{ 12 | divided_by: include.cols }} columns product">
+		<div class="medium-{{ 12 | divided_by: include.cols }} columns _product">
 		  {% if project.logo %}
-		  <a href="{{ project.url }}"><img class="logo" src="{{ project.logo }}"/></a>
+		  <a href="{{ project.url }}"><img class="_logo" src="{{ project.logo }}"/></a>
 		  {% endif %}
-		  <h4><a href="{{ project.url }}">{{ project.name }}</a></h4>
-		  <p>{{ project.description }} <a href="{{ project.url }}">{{ site.data.language.more }}</a></p>
+		  <div class="_name panelradius pseudo-p"><a href="{{ project.url }}">{{ project.name }}</a></div>
+		  <div class="_description pseudo-p">{{ project.description }}<br/><a href="{{ project.url }}">{{ site.data.language.more }}</a></div>
 		</div>
 		{% if modulo1 == '0' or forloop.last %}</div>{% endif %}
 	{% endfor %}

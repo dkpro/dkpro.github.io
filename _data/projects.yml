@@ -34,7 +34,7 @@
 - name: "DKPro Similarity"
   url: "https://dkpro.github.io/dkpro-similarity"
   description: "Framework for developing text similarity algorithms."
-  status: "regular"
+  status: "featured"
 
 - name: "DKPro Statistics"
   url: "https://dkpro.github.io/dkpro-statistics"
@@ -62,11 +62,11 @@
 - name: "DKPro WSD"
   url: "https://dkpro.github.io/dkpro-wsd"
   description: "Modular, extensible Java framework for word sense disambiguation."
-  status: "regular"
+  status: "featured"
 
 - name: "JOTL"
   url: "https://dkpro.github.io/dkpro-jotl"
-  description: "(Java OpenThesaurus Library) is an open-source, Java-based application programming interface that allows to access all information contained in OpenThesaurus, such as glosses, usage examples, translations and much more."
+  description: "Java OpenThesaurus Library allows to access all information contained in OpenThesaurus, such as glosses, usage examples, translations and much more."
   status: "regular"
 
 - name: "jWeb1t"
@@ -77,18 +77,18 @@
 - name: "JOWKL"
   url: "https://dkpro.github.io/dkpro-jowkl"
   logo: "https://dkpro.github.io/dkpro-jowkl/assets/img/logo.png"
-  description: "(Java OmegaWiki Library) is an open-source, Java-based application programming interface that allows to access all information contained in OmegaWiki, such as glosses, usage examples, translations and much more."
+  description: "Java OmegaWiki Library allows to access all information contained in OmegaWiki, such as glosses, usage examples, translations and much more."
   status: "regular"
 
 - name: "JWKTL"
   url: "https://dkpro.github.io/dkpro-jwktl"
   logo: "https://dkpro.github.io/dkpro-jwktl/assets/img/logo.png"
-  description: "(Java Wiktionary Library) is a free, Java-based application programming interface that allows to access the information contained in Wiktionary."
+  description: "Java Wiktionary Library allows to access the information contained in Wiktionary."
   status: "regular"
 
 - name: "JWPL"
   url: "https://dkpro.github.io/dkpro-jwpl"
-  description: "(Java Wikipedia Library) is a free, Java-based application programming interface that allows to access all information contained in Wikipedia."
+  description: "Java Wikipedia Library allows to access all information contained in Wikipedia."
   status: "regular"
 
 - name: "WebAnno"
