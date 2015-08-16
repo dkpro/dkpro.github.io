@@ -66,6 +66,7 @@
 
 - name: "JOTL"
   url: "https://dkpro.github.io/dkpro-jotl"
+  logo: "https://dkpro.github.io/dkpro-jotl/assets/img/logo.png"
   description: "Java OpenThesaurus Library allows to access all information contained in OpenThesaurus, such as glosses, usage examples, translations and much more."
   status: "regular"
 
