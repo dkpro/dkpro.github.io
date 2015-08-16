@@ -6,6 +6,7 @@
 
 - name: "DKPro BigData"
   url: "https://dkpro.github.io/dkpro-bigdata"
+  logo: "https://dkpro.github.io/dkpro-bigdata/assets/img/logo.png"
   description: "Facilitate using DKPro UIMA components with Hadoop."
   status: "regular"
 
