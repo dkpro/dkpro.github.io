@@ -2,6 +2,10 @@
   url: "/"
   side: left
 
+- title: "GitHub"
+  side: left
+  url: "https://github.com/dkpro"
+
 - title: "About"
   side: left
   url: "/info"
