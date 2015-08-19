@@ -22,8 +22,8 @@ The contributor license agreement represents a license that the contributor give
 
 Details on how and where to submit the agreements are included in their respective text.
 
-   * [Individual Contributor License Agreement](http://dkpro.github.io/dkpro-core/pages/icla.txt) (ICLA) - always required
-   * [Corporate Contributor License Agreement](http://dkpro.github.io/dkpro-core/pages/ccla.txt) (CCLA) - required when contributor is employed
+   * [Individual Contributor License Agreement]({{ site.url}}/files/icla.txt) (ICLA) - always required
+   * [Corporate Contributor License Agreement]({{ site.url}}/files/ccla.txt) (CCLA) - required when contributor is employed
 
 *Note: your browser may not correctly detect the UTF-8 encoding in the CLA files. In that case, please switch the encoding in your browser to UTF-8 or right-click on the links and "save as", then open the files in a UTF-8-capable editor before printing and signing. The encoding is not properly detected when umlaut *"ä"* (an 'a' with two dots above) does not display properly in *Technische Universität Darmstadt*.
 
