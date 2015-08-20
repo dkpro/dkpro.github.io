@@ -91,6 +91,7 @@
 
 - name: "JWPL"
   url: "https://dkpro.github.io/dkpro-jwpl"
+  logo: "https://dkpro.github.io/dkpro-jwpl/assets/img/logo.png"
   description: "Java Wikipedia Library allows to access all information contained in Wikipedia."
   status: "regular"
 
