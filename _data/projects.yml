@@ -63,6 +63,7 @@
 
 - name: "DKPro WSD"
   url: "https://dkpro.github.io/dkpro-wsd"
+  logo: "https://dkpro.github.io/dkpro-wsd/assets/img/logo.png"
   description: "Modular, extensible Java framework for word sense disambiguation."
   status: "featured"
 
