@@ -4,7 +4,7 @@ title: "About DKPro"
 permalink: "/info/"
 ---
 
-This project was initiated by the Ubiquitous Knowledge Processing Lab (UKP) at the Technische Universität Darmstadt, Germany under the auspices of Prof. Dr. Iryna Gurevych.
+This project was initiated by the Ubiquitous Knowledge Processing Lab (UKP) at the Technische Universität Darmstadt, Germany under the auspices of Prof. Iryna Gurevych.
 
 ### What is DKPro?
 
@@ -19,7 +19,7 @@ For a long time, DKPro has been exclusively developed by the members of the UKP 
 ### A short history
 
 * 2007: project founded.
-* 2009: first closed-source of DKPro Core (1.0) released.
+* 2009: first closed-source release of DKPro Core (1.0).
 * 2011: the first open-source release of DKPro Core (1.1.0) published on Google code.
 * 2012: first published via Maven Central.
 * 2014: becoming a community project.
