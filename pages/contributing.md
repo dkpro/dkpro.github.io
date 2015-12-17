@@ -29,7 +29,7 @@ Details on how and where to submit the agreements are included in their respecti
 
 ### How to make contributions?
 
-Contributions should be submitted by opening an issue on the Google Code issue tracker of the project to which you wish to contribute. Describe the bug you fix or the feature that you provide and attach your changes as a diff file.
+Contributions should be submitted by opening an issue on the (GitHub) issue tracker of the project to which you wish to contribute. Describe the bug you fix or the feature that you provide and attach your changes as a diff file.
 
 Prolific contributors may eventually be granted write access to the code repositories. Access to the repositories is granted on a per-project basis.
 
