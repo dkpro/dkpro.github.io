@@ -8,7 +8,16 @@ This project was initiated by the Ubiquitous Knowledge Processing Lab (UKP) at t
 
 ### What is DKPro?
 
-*DKPro* was created as the *Darmstadt Knowledge Processing Repository* and first presented at the GSCL 2007. DKPro is a community that consists of a growing number of projects addressing different aspects of Natural Language Processing (NLP), e.g. linguistic pre-processing, machine learning, lexical resources, etc. The projects within DKPro maintain a strong contact with each other, share a common ideaology of reusability, and often build upon each other.
+DKPro is a community that consists of a growing number of projects addressing different aspects of Natural Language Processing (NLP), e.g. linguistic pre-processing, machine learning, lexical resources, etc. The projects within DKPro maintain a strong contact with each other, share a common ideology of reusability, and often build upon each other.
+
+*DKPro* was created as the *Darmstadt Knowledge Processing Repository* and first presented at the GSCL 2007. As part of becoming a community project, it was decided to drop the old long name. Presently, we continue to use *DKPro* as a neutral brand without any long form.
+
+It is not uncommon for people to use *DKPro* and *DKPro Core* synonymously. However, they are not the
+same. *DKPro* is a community that incorporates multiple projects and *DKPro Core* is but one of these
+projects. Also, no all projects in the DKPro community are based on UIMA, but DKPro Core is.
+
+As the different DKPro projects are mainly developed by scientists, please cite them individually
+based on which of the projects you use. There is presently no citation regarding the overarching DKPro community effort. If you wish to refer to the DKPro community as a whole, please just link to our website: https://dkpro.github.io
 
 ### Who is developing DKPro?
 
