@@ -36,7 +36,7 @@ Prolific contributors may eventually be granted write access to the code reposit
 ### Contributor attribution
 
 The CONTRIBUTORS.txt file is used to keep track of any contributors. It is to be used in favor over
-author attributions in individual files, e.g. via *@author* tags. For `@author` tags in code copied
+author attributions in individual files, e.g. via *@author* tags. For *@author* tags in code copied
 from a third-party, see *Integrating third-party code* below.
 
 The reason that we prefer a central place for maintaining the list of contributors is, that:
