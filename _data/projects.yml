@@ -11,7 +11,7 @@
   status: "regular"
 
 - name: "DKPro C4Corpus"
-  url: "https://dkpro.github.io/dkpro-c4corpus"
+  url: "https://github.com/dkpro/dkpro-c4corpus"
   logo: "https://raw.githubusercontent.com/dkpro/dkpro-c4corpus/master/dkpro-c4corpus-doc/src/main/asciidoc/documentation/images/logo-c4-100.png"
   description: "Tools for processing CommonCrawl corpus, including Creative Commons license detection, boilerplate removal, language detection, and near-duplicate removal"
   status: "regular"
