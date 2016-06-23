@@ -29,7 +29,7 @@ Details on how and where to submit the agreements are included in their respecti
 
 ### How to make contributions
 
-Contributions should be submitted by opening an issue on the (GitHub) issue tracker of the project to which you wish to contribute. Describe the bug you fix or the feature that you provide and attach your changes as a diff file.
+Contributions should be submitted by sending a [pull request](https://help.github.com/articles/using-pull-requests/) to the project to which you wish to contribute.  If your contribution addresses an existing bug or feature request listed in the project's issue tracker, please reference it.  (If not, consider opening a new issue before sending your pull request.)
 
 Prolific contributors may eventually be granted write access to the code repositories. Access to the repositories is granted on a per-project basis.
 
