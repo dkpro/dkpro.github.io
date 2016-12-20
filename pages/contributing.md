@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "About DKPro"
+title: "Contributing to DKPro"
 permalink: "/contributing/"
 ---
 
@@ -23,7 +23,7 @@ The contributor license agreement represents a license that the contributor give
 Details on how and where to submit the agreements are included in their respective texts.
 
    * [Individual Contributor License Agreement]({{ site.url}}/files/icla.txt) (ICLA) - always required
-   * [Corporate Contributor License Agreement]({{ site.url}}/files/ccla.txt) (CCLA) - required when contributor is employed
+   * [Corporate Contributor License Agreement]({{ site.url}}/files/ccla.txt) (CCLA) - strongly recommended when contributor is employed
 
 *Note: your browser may not correctly detect the UTF-8 encoding in the CLA files. In that case, please switch the encoding in your browser to UTF-8 or right-click on the links, select "Save as", and open the files in a UTF-8–capable editor before printing and signing. You'll know that  the encoding has been properly detected when the umlaut *"ä"* (an 'a' with two dots above) appears in the phrase "*Technische Universität Darmstadt*".
 
