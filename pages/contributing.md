@@ -69,7 +69,8 @@ also OK. In case of doubt, ask the DKPro developer team.
 
 We try to maintain a common code style through our projects (right-click on link and select "Save as"):
 
-* [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20120326.xml) (2012-03-26)
+* [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20120326.xml) (2012-03-26, use for Eclipse 4.6.x and below)
+* [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20170725.xml) (2017-07-25, use for Eclipse 4.7.x and above)
 
 But please note that **readability trumps style**. Some parts of the code are formatted manually.
 Please to not carelessly reformat whole files. Format those sections that you are working on and
