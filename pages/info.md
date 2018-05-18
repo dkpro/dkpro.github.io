@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "About DKPro"
+title: "About Us"
 permalink: "/info/"
 ---
 

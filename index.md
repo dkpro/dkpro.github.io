@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "Welcome to DKPro"
+title: "Welcome"
 teaser: "DKPro is a community of projects focussing on re-usable Natural Language Processing software."
 style: |
   ._product ._logo {
