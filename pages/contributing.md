@@ -78,3 +78,32 @@ Please to not carelessly reformat whole files. Format those sections that you ar
 to reformat larger parts of the code, then please do this in separate commits that do not contain
 any functional changes. Please do **not use any automatic save actions** that modify code except
 maybe "remove unused imports".
+
+### Preparing a pull request
+
+In order to contribute to a DKPro project, you need to create a **pull request**. This section
+briefly guides you through the best way of doing this:
+
+* Before creating a pull request, create an issue in the issue tracker of the project to which
+  you wish to contribute
+* Fork the project on GitHub
+* Create a branch based on the branch to which you wish to contribute. Normally, you should create
+  this branch from the **master** branch of the respective project. In the case you want to fix
+  a bug in the latest released version, you should consider to branch off the latest maintenance
+  branch (e.g. **1.2.x**). If you are not sure, ask via the issue you have just created. Do **not**
+  make changes directly to the master or maintenance branches in your fork. The name of the branch
+  should be e.g. `feature/[ISSUE-NUMBER]-[SHORT-ISSUE-DESCRIPTION]` or `bugfix/[ISSUE-NUMBER]-[SHORT-ISSUE-DESCRIPTION]`.
+* Now you make changes to your branch. When committing to your branch, use the following format
+  for your commit messages:
+{% highlight %}
+  #[ISSUE NUMBER] - [ISSUE TITLE]
+  [EMPTY LINE]
+  - [CHANGE 1]
+  - [CHANGE 2]
+  - [...]
+{% endhighlight %}
+* You can create the pull request any time after your first commit. I.e. you do not have to wait
+  until you are completely finished with your implementation. Creating a pull request early 
+  tells other developers that you are actively working on an issue and facilitates asking questions
+  about and discussing implementation details.
+
