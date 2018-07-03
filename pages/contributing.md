@@ -93,8 +93,11 @@ briefly guides you through the best way of doing this:
   branch (e.g. **1.2.x**). If you are not sure, ask via the issue you have just created. Do **not**
   make changes directly to the master or maintenance branches in your fork. The name of the branch
   should be e.g. `feature/[ISSUE-NUMBER]-[SHORT-ISSUE-DESCRIPTION]` or `bugfix/[ISSUE-NUMBER]-[SHORT-ISSUE-DESCRIPTION]`.
-* Now you make changes to your branch. When committing to your branch, use the following format
-  for your commit messages:
+* Now you make changes to your branch. When committing to your branch, use the format shown below
+  for your commit messages. Note that `#` normally introduces comments in git. You may have to 
+  [reconfigure git](https://stackoverflow.com/questions/22936252/escape-comment-character-in-git-commit-message) 
+  before attempting an interactive rebase and switch it to another comment 
+  character.
 {% highlight text %}
   #[ISSUE NUMBER] - [ISSUE TITLE]
   [EMPTY LINE]
