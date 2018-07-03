@@ -95,7 +95,7 @@ briefly guides you through the best way of doing this:
   should be e.g. `feature/[ISSUE-NUMBER]-[SHORT-ISSUE-DESCRIPTION]` or `bugfix/[ISSUE-NUMBER]-[SHORT-ISSUE-DESCRIPTION]`.
 * Now you make changes to your branch. When committing to your branch, use the following format
   for your commit messages:
-{% highlight %}
+{% highlight text %}
   #[ISSUE NUMBER] - [ISSUE TITLE]
   [EMPTY LINE]
   - [CHANGE 1]
