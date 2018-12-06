@@ -67,10 +67,27 @@ also OK. In case of doubt, ask the DKPro developer team.
 
 ### Code style
 
-We try to maintain a common code style through our projects (right-click on link and select "Save as"):
+We use a style for formatting the source code in {product-name}. Our approach consists of two steps:
+
+* DKPro code formatting profile - the profile configures your IDE to auto-format the code according to
+  our guidelines as you go.
+* Checkstyle - this tool is used to check if the source code is actually formatted according to our
+  guidelines. It is run as part of a Maven build and the build fails if the code is not formatted
+  properly.
+
+Here is a brief summary of the formatting rules:
+* no tabs, only spaces
+* indenting using 4 spaces in Java files and 2 spaces in XML files
+* maximum 100 characters per line (with a few exceptions)
+* curly braces on the next line for class/method declarations, same line for logic blocks (if/for/...)
+
+We offer a code formatting profile for Eclipse here (right-click on link and select "Save as"):
 
 * [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20120326.xml) (2012-03-26, use for Eclipse 4.6.x and below)
 * [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20170725.xml) (2017-07-25, use for Eclipse 4.7.x and above)
+
+In Eclipse, go to **Preferences -> Java -> Code Style -> Formatter** to import the file. Apparently,
+the files can also be used with IntelliJ via the [Eclipse Code Formatter](https://plugins.jetbrains.com/plugin/6546-eclipse-code-formatter) plugin.
 
 But please note that **readability trumps style**. Some parts of the code are formatted manually.
 Please to not carelessly reformat whole files. Format those sections that you are working on and
