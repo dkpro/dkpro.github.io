@@ -27,6 +27,13 @@ style: |
 
 {% include projects.html status='regular' cols='3' %}
 
+----
+
+Here are a few additional projects which are not part of DKPro proper, but which are closely related,
+compatible  with DKPro products and building on them.
+
+{% include projects.html status='related' cols='3' %}
+
 {% comment %}
 #### Other projects you might be interested in
 

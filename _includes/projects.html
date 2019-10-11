@@ -1,4 +1,4 @@
-{% assign projects = (site.data.projects | where: "status", include.status | sort: "name") %}
+{% assign projects = (site.data.projects | where: "status", include.status | sort: "order") %}
 <div>
 	{% for project in projects cols:include.cols %}
 		{% capture modulo %}{{ forloop.index0 | modulo: include.cols }}{% endcapture %}
