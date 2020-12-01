@@ -83,7 +83,7 @@ Here is a brief summary of the formatting rules:
 
 We offer a code formatting profile for Eclipse here (right-click on link and select "Save as"):
 
-* **[Eclipse Code Style file]({{ site.url}}/files/DKProStyle_20201201.xml)** (2020-12-01, use for Eclipse 4.17.x (2020-09) and above)
+* **CURRENT FORMATTER PROFILE** [Eclipse Code Style file]({{ site.url}}/files/DKProStyle_20201201.xml) (2020-12-01, use for Eclipse 4.17.x (2020-09) and above)
 * [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20170725.xml) (2017-07-25, use for Eclipse 4.7.x and above - deprecated)
 
 In Eclipse, go to **Preferences -> Java -> Code Style -> Formatter** to import the file. Apparently,
