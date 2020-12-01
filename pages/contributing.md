@@ -83,18 +83,18 @@ Here is a brief summary of the formatting rules:
 
 We offer a code formatting profile for Eclipse here (right-click on link and select "Save as"):
 
-* [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20120326.xml) (2012-03-26, use for Eclipse 4.6.x and below)
-* [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20170725.xml) (2017-07-25, use for Eclipse 4.7.x and above)
+* **[Eclipse Code Style file]({{ site.url}}/files/DKProStyle_20201201.xml)** (2020-12-01, use for Eclipse 4.17.x (2020-09) and above)
+* [Eclipse Code Style file]({{ site.url}}/files/DKProCoreStyle_20170725.xml) (2017-07-25, use for Eclipse 4.7.x and above - deprecated)
 
 In Eclipse, go to **Preferences -> Java -> Code Style -> Formatter** to import the file. Apparently,
 the files can also be used with IntelliJ via the [Eclipse Code Formatter](https://plugins.jetbrains.com/plugin/6546-eclipse-code-formatter) plugin.
 
-But please note that **readability trumps style**. Some parts of the code are formatted manually.
-Please to not carelessly reformat whole files. Format those sections that you are working on and
-**review your changes before you commit** to avoid unnecessary changes throughout the code. If you plan
-to reformat larger parts of the code, then please do this in separate commits that do not contain
-any functional changes. Please do **not use any automatic save actions** that modify code except
-maybe "remove unused imports".
+But please note that **readability trumps style**. Some projects may have the convention to auto-format
+all files and use markers such as `@formatter:off/on` to guard manually-formatted sections. Others may format manually fully manually. Before reformatting whole files, better check the policy. 
+
+If manual formatting isused, format those sections that you are working on and **review your changes before you commit** to  avoid unnecessary changes throughout the code. If you plan to reformat larger parts
+of the code, then please do this in separate commits that do not contain any functional changes. Please
+do **not use any automatic save actions** that modify code except maybe "remove unused imports".
 
 ### Preparing a pull request
 
